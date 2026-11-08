@@ -1,0 +1,19 @@
+# Données du challenge : à télécharger sur Kaggle, ne pas versionner
+train.csv
+test.csv
+*.csv
+!submission.csv
+
+# Fichiers générés
+comparaison_modeles.png
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Système
+.DS_Store
+Thumbs.db
